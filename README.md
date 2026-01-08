@@ -26,50 +26,7 @@ Follow these instructions to set up the project locally.
 - MongoDB installed or access to a MongoDB cloud instance
 - Git installed
 
-### Installation
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/Prescripto-Hospital_Management_System.git
-   cd Prescripto-Hospital_Management_System
 
-## Install dependencies
-
-1. **Install admin dependencies**
-   ```bash
-   cd admin
-   npm install
-   ```
-
-2. **Install frontend dependencies**
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-3. **Set up environment variables**
-   In the server directory, create a .env file with the following:
-
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-   Run the application
-
-4. **Start server:**
-   ```bash
-   cd backend
-   npm run server
-   ```
-
-5. **Start Admin Panel:**
-   ```bash
-   cd admin
-   npm run dev
-   ```
-
-6. **Start Frontend Panel:**
-   ```bash
-   cd frontend
-   npm run dev
-   ```
 
 # Topics
 Hospital Management, MERN Stack, MongoDB, Express.js, React, Node.js, Healthcare App, Patient Records, Appointments.
@@ -84,8 +41,7 @@ Niraj Kumar [Github](https://github.com/meniraj07)
 
 [Prescripto Admin/Doctor Panel](https://prescripto-hospital-management-system-c29o.vercel.app/)
 
-# Contact
-For any questions or feedback, please contact [Niraj Kumar](https://www.linkedin.com/in/nirajkumar-nk/)
+
 
 # License
 This project is licensed under the MIT License.
